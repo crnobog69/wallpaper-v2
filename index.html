@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="https://raw.githubusercontent.com/crnobog69/crnobog69.github.io/main/Oznake/CRNOBOG-BELI.png" type="image/x-icon">
+    <title>🌌</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/convert.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    
+    <header>
+      <h1></h1>
+      <h2>🌠 Wallpaper Theme Converter 🌠 v2</h2>
+    </header>
+
+    <div id="loading-screen">
+      <p>Traversing the void... 👽</p>
+    </div>
+
+    <div id="main-container">
+      <div id="theme-sidebar">
+        <h3>🎨 Select theme</h3>
+        <div id="palette"></div>
+
+        <button onclick="changeTheme('Gruvbox')">🌋 Gruvbox</button>
+        <button onclick="changeTheme('Nord')">❄️ Nord</button>
+        <button onclick="changeTheme('Solarized')">☀️ Solarized</button>
+        <button onclick="changeTheme('Catppuccin')">🐱 Catppuccin</button>
+        <button onclick="changeTheme('Dracula')">🧛 Dracula</button>
+        <button onclick="changeTheme('Everforest')">🌲 Everforest</button>
+        <button onclick="changeTheme('TokyoNight')">🗼 Tokyo Night</button>
+      
+        <button id="custom" onclick="openCustomMenu()">🔧 Custom</button>
+      </div>
+
+      <div id="content-area">
+        <div id="drop-zone" ondragover="handleImage();">
+          <label for="image-loader">📤 Upload image</label>
+          <input type="file" id="image-loader" name="image-loader" accept=".jpg, .jpeg, .png, .webp" />
+        </div>
+
+        <canvas id="image-canvas"></canvas>
+
+        <div class="action-buttons">
+          <button id="download-button" onclick="downloadImage()">📥 Download</button>
+          <button id="reset-button" onclick="reset()">🔄 Reset</button>
+        </div>
+
+        <button id="convert" onclick="initialize()">🌌 Convert</button>
+      </div>
+
+      <div id="custom-menu">
+        <button onclick="addColour()">➕ Add</button>
+        <button onclick="removeColour()">➖ Remove</button>
+        <div id="colours"></div>
+        <button onclick="closeCustomMenu()">✅ Done</button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>Crnobog 2024 👾</p>
+  </footer>
+</html>

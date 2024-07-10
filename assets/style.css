@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+:root {
+    --matrix-green: #00FF41;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000000;
+    color: var(--matrix-green);
+    overflow-x: hidden;
+}
+
+/* Zvezde u pozadini ostaju iste */
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: 15px;
+    margin-bottom: 0;
+    color: var(--matrix-green);
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: var(--matrix-green);
+}
+
+#main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#theme-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 20px;
+    border-right: 1px solid var(--matrix-green);
+}
+
+#content-area {
+    flex: 3;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#drop-zone {
+    border: 1px solid var(--matrix-green);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid var(--matrix-green);
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid var(--matrix-green);
+    color: var(--matrix-green);
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--matrix-green);
+    color: #000000;
+}
+
+#convert {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 15px 30px;
+}
+
+#custom-menu {
+    border: 1px solid var(--matrix-green);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: var(--matrix-green);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
+    color: var(--matrix-green);
+}
