@@ -10,4 +10,4 @@
 - Custom
 
 
-https://github.com/NotNeelPatel/WallpaperThemeConverter
+This is custiomized version of: [this](https://github.com/NotNeelPatel/WallpaperThemeConverter)
