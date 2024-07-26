@@ -9,7 +9,7 @@ body, html {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     background-color: #000000;
-    color: var(--matrix-green);
+    color: red
     overflow-x: hidden;
 }
 
@@ -24,14 +24,14 @@ h1 {
     font-size: 4em;
     letter-spacing: 15px;
     margin-bottom: 0;
-    color: var(--matrix-green);
+    color: red
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: 300;
     letter-spacing: 5px;
-    color: var(--matrix-green);
+    color: red
 }
 
 #main-container {
@@ -47,7 +47,7 @@ h2 {
     flex-direction: column;
     align-items: stretch;
     padding-right: 20px;
-    border-right: 1px solid var(--matrix-green);
+    border-right: 1px solid red
 }
 
 #content-area {
@@ -59,7 +59,7 @@ h2 {
 }
 
 #drop-zone {
-    border: 1px solid var(--matrix-green);
+    border: 1px solid red
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -72,13 +72,13 @@ canvas {
     height: auto;
     display: block;
     margin: 20px auto;
-    border: 1px solid var(--matrix-green);
+    border: 1px solid red
 }
 
 button {
     background-color: transparent;
-    border: 1px solid var(--matrix-green);
-    color: var(--matrix-green);
+    border: 1px solid red
+    color: red
     padding: 10px 20px;
     margin: 5px 0;
     cursor: pointer;
@@ -86,7 +86,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--matrix-green);
+    background-color: red
     color: #000000;
 }
 
@@ -97,7 +97,7 @@ button:hover {
 }
 
 #custom-menu {
-    border: 1px solid var(--matrix-green);
+    border: 1px solid red
     padding: 20px;
     margin-top: 20px;
 }
@@ -113,12 +113,12 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    color: var(--matrix-green);
+    color: red
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
     font-size: 0.8em;
-    color: var(--matrix-green);
+    color: red
 }
