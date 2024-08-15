@@ -5,7 +5,7 @@
 - [Токио Ноћ](https://github.com/enkia/tokyo-night-vscode-theme) - додато 🌃
 - [Катпућин](https://github.com/catppuccin/catppuccin) 🐱
 - [Грувбокс](https://github.com/morhetz/gruvbox) 🟫
-- [Норд](https://github.com/arcticicestudio/nord) ❄️
+- [Норд](https://github.com/nordtheme)) ❄️
 - [Соларизед](https://github.com/altercation/solarized) ☀️
 - [Дракула](https://github.com/dracula/dracula-theme) 🧛
 - [Еверфорест](https://github.com/sainnhe/everforest) 🌲
